@@ -101,6 +101,8 @@ public class TheRich  extends JFrame{
 		play2.add(play_2_bank_trading);
 		play2.add(play_2_player_trading);
 	}
-	
+	private void add(){
+		
+	}
 	//-----------------------------------------------------------------------------------------------------------------------------
 }
