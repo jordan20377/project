@@ -8,7 +8,8 @@ import java.awt.geom.*;
 
 public class TheRich  extends JFrame{
 	//--------Center--------
-	JPanel board=new JPanel();
+	board test=new board();
+	JPanel board=test;
 	GridBagConstraints c0 = new GridBagConstraints();
 	GridBagConstraints c1 = new GridBagConstraints();
 	GridBagConstraints c2 = new GridBagConstraints();
@@ -49,7 +50,7 @@ public class TheRich  extends JFrame{
 	    c0.gridy = 0;
 	    c0.gridwidth = 1;
 	    c0.gridheight = 5;
-	    c0.weightx = 0;
+	    c0.weightx = 152;
 	    c0.weighty = 0;
 	    c0.fill=GridBagConstraints.VERTICAL;
 		getContentPane().add(play1,c0);
@@ -65,7 +66,7 @@ public class TheRich  extends JFrame{
 	    c2.gridy = 0;
 	    c2.gridwidth = 1;
 	    c2.gridheight = 5;
-	    c2.weightx = 0;
+	    c2.weightx = 152;
 	    c2.weighty = 0;
 	    c2.fill=GridBagConstraints.VERTICAL;
 		getContentPane().add(play2,c2);
@@ -100,9 +101,6 @@ public class TheRich  extends JFrame{
 		play2.add(play_2_place_box);
 		play2.add(play_2_bank_trading);
 		play2.add(play_2_player_trading);
-	}
-	private void add(){
-		
 	}
 	//-----------------------------------------------------------------------------------------------------------------------------
 }
