@@ -19,4 +19,7 @@ public class player{
 	String getMoney(){
 		return String.valueOf(money);
 	}
+	void go(int roll){		//ROLL後 移動步數
+		
+	}
 }

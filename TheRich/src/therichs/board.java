@@ -18,10 +18,12 @@ public class board extends JPanel {
 		for(int i=0;i<36;i++){
 			place[i]=new JButton(String.valueOf(i));
 			addcover(this,place[i],placeLocation[i]);
+			place[i].addActionListener(new BoardListener());
 		}
 		dice1=new JButton("1");
 		dice2=new JButton("2");
 		roll=new JButton("Roll");
+		roll.addActionListener(new RollListener());
 		addcover(this,dice1,dice1Location);
 		addcover(this,dice2,dice2Location);
 		addcover(this,roll,rollLocation);
